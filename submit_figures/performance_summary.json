@@ -7,34 +7,34 @@
   },
   "data_parallel": {
     "single_gpu": {
-      "time_mean": 49.01803910732269,
-      "time_std": 0.04126012325286865,
-      "tok_mean": 82807.61233946559,
-      "tok_std": 61.21802592540189
+      "time_mean": 48.10215222835541,
+      "time_std": 0.034471869468688965,
+      "tok_mean": 83696.73620344875,
+      "tok_std": 49.87494123377837
     },
     "two_gpu": {
-      "time_mean": 25.87744230031967,
-      "time_std": 0.013931334018707275,
-      "tok_mean": 289732.60539809614,
-      "tok_std": 45.491342363500735
+      "time_mean": 28.001945436000824,
+      "time_std": 0.010055005550384521,
+      "tok_mean": 289080.98612927954,
+      "tok_std": 114.2093780618743
     },
-    "speedup_time_reduction_x": 1.8942381761862592,
-    "speedup_throughput_x": 3.498864382302826
+    "speedup_time_reduction_x": 1.7178146546386974,
+    "speedup_throughput_x": 3.4539099042833152
   },
   "pipeline_parallel": {
     "model_parallel": {
-      "time_mean": NaN,
-      "time_std": NaN,
-      "tok_mean": NaN,
-      "tok_std": NaN
+      "time_mean": 46.793670415878296,
+      "time_std": 0.010006189346313477,
+      "tok_mean": 13677.064089579788,
+      "tok_std": 2.9246539492569354
     },
     "pipeline_parallel": {
-      "time_mean": NaN,
-      "time_std": NaN,
-      "tok_mean": NaN,
-      "tok_std": NaN
+      "time_mean": 45.09517431259155,
+      "time_std": 0.003106832504272461,
+      "tok_mean": 14192.20599085416,
+      "tok_std": 0.9777721796590413
     },
-    "speedup_time_reduction_x": NaN,
-    "speedup_throughput_x": NaN
+    "speedup_time_reduction_x": 1.0376646975907682,
+    "speedup_throughput_x": 1.0376646550678112
   }
 }
